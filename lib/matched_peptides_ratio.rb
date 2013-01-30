@@ -176,7 +176,7 @@ tilos_list_wb.add_worksheet(:name => "N3-only Unique Proteins") do |sheet|
 	end
 end
 
-# create sheet2 - proteins list
+# create sheet2 - all proteins identified in WT but not in N3
 tilos_list_wb.add_worksheet(:name => "WT-only Unique Proteins") do |sheet|
 	sheet.add_row ["PROT_HIT_NUM", "PROT_ACC", "UNIPROT_LINK", "GENENAME", "PROT_DESC", "PROT_SCORE", "PROT_MASS", "PROT_MATCH_SIG", "PROT_MATCH"], :style=>header
 	wt_unique_proteins.each do |protein, hit|

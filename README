@@ -19,8 +19,9 @@ STEP 4: create a peptide list with the highest scored, phospho modified peptides
 STEP 5: create a protein list with the unique proteins
 
 Clarkson:
-STEP 6: create a protein list with the unique proteins
-STEP 7: calculate the significant and total 'matched peptides' ratios and log ratios betwwen the N3 and WT sets
+STEP 6: create a protein list with the unique proteins in each experiment (N3, WT)
+STEP 7: create a list with all proteins identified in each experiment, that don't overlap with the ones in the other experiment
+STEP 8: create a list with the identified proteins that are common in these experiments and calculate the significant and total 'matched peptides' ratios and log ratios for the differential expression, using the matched peptides abundance. NOTE: In case there are 0 significant peptide matches, the log ratio is not calculated, leaving an empty cell.
 
 
 
